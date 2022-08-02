@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Matric Calculator</h1>
+  </head>
+  <body>
+    <label for="calculator">Choose a calculation to compute:</label>
+    <select id="calculator" onchange="setup()">
+      <option value="subtract">subtract</option>
+      <option value="add">Addition</option>
+    </select>
+
+    <div id="dimensionSelector"></div>
+
+    <table id="matricTable">
+      <tr>
+        <td><input type="number" /></td>
+        <td><input type="number" /></td>
+        <td><input type="number" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" /></td>
+        <td><input type="number" /></td>
+        <td><input type="number" /></td>
+      </tr>
+    </table>
+  </body>
+  <script src="index.js"></script>
+</html>
